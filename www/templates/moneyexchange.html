@@ -1,0 +1,63 @@
+<ion-pane>
+
+<div class="bar bar-header bar-royal">
+  <button class="button icon ion-chevron-left" ui-sref="dashboard"></button>
+  <h1 class="title">Money Exchange</h1>
+  <button class="button icon ion-android-exit" ng-click="user.logout()"></button>
+</div>
+
+
+
+  <ion-view view-title="MoneyExchange" name="moneyexchange-view">
+  <ion-content class="padding">
+      
+      <div class="currency-holder">
+      	
+      	<label class="item item-input item-select">
+	    <div class="input-label">
+	      Select currency to convert
+	    </div>
+			<select>
+		      <option>SGD</option>
+		      <option selected>PHP</option>
+		      <option>USD</option>
+		    </select>
+		 </label>
+
+		 <label class="item item-input item-select">
+	    <div class="input-label">
+			Select destination currency
+	    </div>
+			<select>
+		      <option>SGD</option>
+		      <option selected>YEN</option>
+		      <option>GBP</option>
+		    </select>
+		 </label>
+
+
+		 <label class="item item-input">
+        <i class="icon ion-cash placeholder-icon"></i>
+        <input type="text" placeholder="Enter Amount">
+      </label>
+
+
+		
+
+
+      </div>
+
+
+      <div class="submit-btn-margin">
+        <button class="button button-block button-balanced" ui-sref="enterpin2">
+          Process
+        </button>
+      </div>
+
+
+     
+  </ion-content>
+</ion-view>
+
+</ion-pane>
+

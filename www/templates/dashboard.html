@@ -1,0 +1,44 @@
+<ion-pane>
+
+<div class="bar bar-header bar-royal">
+  <h1 class="title">Dashboard</h1>
+  <button class="button icon ion-android-exit" ng-click="user.logout()"></button>
+</div>
+
+
+
+  <ion-view view-title="Dashboard" name="dashboard-view">
+  <ion-content class="padding">
+      
+      <div class="userprofile-pic">
+        <div class="userpic tomcruise">
+        </div>
+      </div>
+      
+
+      <h3 class="welcome-text" ng-if="authenticated">{{currentUser.name}}</h3>
+
+      <div class="current-balance">
+        <p class="cb-title">CURRENT BALANCE</p>
+        <p class="cb-amount">PHP 460,309.40</p>
+      </div>
+<br/>
+      <div class="submit-btn-margin">
+        <button class="button button-block button-balanced" ui-sref="sendmoney">
+          Send Money
+        </button>
+
+        <button class="button button-block button-balanced" ui-sref="moneyexchange">
+          Currency Exchange
+        </button>
+      </div>
+        
+        <div class="alert alert-danger" ng-if="user.error">
+            <strong>There was an error: </strong> {{user.error.error}}
+            <br>Please go back and login again
+        </div>
+  </ion-content>
+</ion-view>
+
+</ion-pane>
+

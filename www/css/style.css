@@ -1,0 +1,167 @@
+/* Empty. Add your own CSS if you like */
+
+.loginView
+{
+	background: #EEEEEE;
+}
+
+.indigo
+{
+	background: #416db4;
+	border-bottom: solid 1px #416db4;
+}
+
+.logo-holder-big
+{
+	margin-top: 10px;
+	margin-bottom: 60px;
+	margin-left: 3px;
+}
+
+.leftright-padding
+{
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.text-fields-holder
+{
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 70px;
+}
+
+.text-fields-holder input[type="text"],
+.text-fields-holder input[type="password"]
+
+{
+	text-align: center;
+}
+
+.loginview-btns #login
+{
+	background-color: #e87f24;
+}
+
+.loginview-btns #register
+{
+	background-color: #416db4;
+}
+
+.marginTops
+{
+	margin-top: 40px;
+}
+
+.bg-purple
+{
+	background: #416db4;
+	border-bottom: solid 1px #416db4;
+	color: #bdc3c7;
+}
+
+.main 
+{
+        background: url(../img/woman-happy.png) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+    }
+
+.button-holders-main
+{
+	margin-top: 285px;
+}
+
+.register-inputs
+{
+	margin-top: 70px;
+}
+
+.register-inputs .item, .sm-container .item
+{
+	margin-bottom: 15px;
+}
+
+.submit-btn-margin
+{
+	margin-top: 35px;
+}
+
+.welcome-text
+{
+	padding-top: 10px;
+	font-size: 18px;
+	text-align: center;
+}
+
+.userpic
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.userprofile-pic
+{
+	padding-top: 70px;
+	padding-left: 75px;
+}
+
+.tomcruise
+{
+	background-image: url(../img/tom-cruise.png);
+	background-repeat: no-repeat;
+	width: 200px;
+}
+
+.cb-title
+{
+	margin-top: 35px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	color: #416db4;
+}
+
+.cb-amount
+{
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	color: #e87f24;
+	margin-top: -7px;
+}
+
+.sm-container
+{
+	margin-top: 70px;
+}
+
+.epin-btns
+{
+	margin-top: 120px;
+	margin-left: 75px;
+}
+
+.epin-btns button
+{
+	margin-right: 20px;
+	margin-bottom: 20px;
+	font-size: 26px;
+}
+
+.receipt-holder
+{
+	margin-top: 80px;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+.currency-holder
+{
+	margin-top: 75px;
+}

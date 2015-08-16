@@ -1,0 +1,43 @@
+<ion-pane>
+
+<div class="bar bar-header bar-royal">
+  <button class="button icon ion-chevron-left" ui-sref="main"></button>
+  <h1 class="title">Sign In</h1>
+</div>
+
+
+
+  <ion-view view-title="Login" name="login-view" class="loginView">
+    <ion-content class="padding">
+
+    <div class="register-inputs">
+      <label class="item item-input">
+        <i class="icon ion-person placeholder-icon"></i>
+        <input type="text" placeholder="Email" ng-model="auth.email">
+      </label>
+
+      <label class="item item-input">
+        <i class="icon ion-locked placeholder-icon"></i>
+        <input type="password" placeholder="Password" ng-model="auth.password">
+      </label>
+
+      
+
+
+    </div>
+
+    <div class="submit-btn-margin">
+        <button class="button button-block button-balanced" ng-click="auth.login()">
+          Submit
+        </button>
+      </div>
+  
+
+    
+
+   </ion-content>
+  </ion-view>
+
+</ion-pane>
+
+

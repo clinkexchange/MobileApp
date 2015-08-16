@@ -1,0 +1,43 @@
+<ion-pane>
+
+<div class="bar bar-header bar-royal">
+  <button class="button icon ion-chevron-left" ui-sref="dashboard"></button>
+  <h1 class="title">Send Money</h1>
+  <button class="button icon ion-android-exit" ng-click="user.logout()"></button>
+</div>
+
+
+
+  <ion-view view-title="SendMoney" name="sendmoney-view">
+  <ion-content class="padding">
+     
+     <div class="sm-container">
+       <label class="item item-input">
+        <i class="icon ion-email placeholder-icon"></i>
+        <input type="text" placeholder="Email">
+      </label>
+
+      <label class="item item-input">
+        <i class="icon ion-cash placeholder-icon"></i>
+        <input type="text" placeholder="Amount">
+      </label>
+
+      
+
+
+
+     </div>
+
+
+     <div class="submit-btn-margin">
+        <button class="button button-block button-balanced" ui-sref="enterpin">
+          Process
+        </button>
+      </div>
+
+     
+  </ion-content>
+</ion-view>
+
+</ion-pane>
+
